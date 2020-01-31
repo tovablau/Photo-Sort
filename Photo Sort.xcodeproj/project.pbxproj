@@ -14,6 +14,11 @@
 		202EED2423E3622700AE8E0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 202EED2223E3622700AE8E0E /* LaunchScreen.storyboard */; };
 		202EED2C23E366A100AE8E0E /* ArticleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202EED2B23E366A100AE8E0E /* ArticleModel.swift */; };
 		202EED2E23E3671A00AE8E0E /* ArticleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202EED2D23E3671A00AE8E0E /* ArticleView.swift */; };
+		202EED3023E393D900AE8E0E /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202EED2F23E393D900AE8E0E /* MainTabBarController.swift */; };
+		202EED3223E394E000AE8E0E /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202EED3123E394E000AE8E0E /* MainNavigationController.swift */; };
+		202EED3423E3954000AE8E0E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202EED3323E3954000AE8E0E /* MainViewController.swift */; };
+		202EED3623E3959300AE8E0E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202EED3523E3959300AE8E0E /* DetailViewController.swift */; };
+		202EED3823E3965C00AE8E0E /* SecondaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202EED3723E3965C00AE8E0E /* SecondaryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,11 @@
 		202EED2523E3622700AE8E0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		202EED2B23E366A100AE8E0E /* ArticleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleModel.swift; sourceTree = "<group>"; };
 		202EED2D23E3671A00AE8E0E /* ArticleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleView.swift; sourceTree = "<group>"; };
+		202EED2F23E393D900AE8E0E /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		202EED3123E394E000AE8E0E /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
+		202EED3323E3954000AE8E0E /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		202EED3523E3959300AE8E0E /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		202EED3723E3965C00AE8E0E /* SecondaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +76,11 @@
 				202EED2023E3622700AE8E0E /* Assets.xcassets */,
 				202EED2223E3622700AE8E0E /* LaunchScreen.storyboard */,
 				202EED2523E3622700AE8E0E /* Info.plist */,
+				202EED2F23E393D900AE8E0E /* MainTabBarController.swift */,
+				202EED3123E394E000AE8E0E /* MainNavigationController.swift */,
+				202EED3323E3954000AE8E0E /* MainViewController.swift */,
+				202EED3523E3959300AE8E0E /* DetailViewController.swift */,
+				202EED3723E3965C00AE8E0E /* SecondaryViewController.swift */,
 			);
 			path = "Photo Sort";
 			sourceTree = "<group>";
@@ -140,11 +155,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				202EED3623E3959300AE8E0E /* DetailViewController.swift in Sources */,
 				202EED1C23E3622600AE8E0E /* ViewController.swift in Sources */,
 				202EED1823E3622600AE8E0E /* AppDelegate.swift in Sources */,
+				202EED3023E393D900AE8E0E /* MainTabBarController.swift in Sources */,
 				202EED2E23E3671A00AE8E0E /* ArticleView.swift in Sources */,
+				202EED3223E394E000AE8E0E /* MainNavigationController.swift in Sources */,
 				202EED2C23E366A100AE8E0E /* ArticleModel.swift in Sources */,
 				202EED1A23E3622600AE8E0E /* SceneDelegate.swift in Sources */,
+				202EED3423E3954000AE8E0E /* MainViewController.swift in Sources */,
+				202EED3823E3965C00AE8E0E /* SecondaryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
