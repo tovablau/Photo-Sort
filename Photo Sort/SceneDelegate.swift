@@ -21,11 +21,11 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         let mainNavigationController = MainNavigationController()
         let secondaryViewController = SecondaryViewController()
-        mainNavigationController.title = "NavVC"
-        secondaryViewController.title = "SecondaryVC"
+        mainNavigationController.title = "Add Photo"
+        secondaryViewController.title = "View Schedule"
         
         let mainViewController = MainViewController()
-        mainViewController.title = "MainVC"
+        mainViewController.title = "Photo Sort"
         
         mainNavigationController.viewControllers = [mainViewController]
         
