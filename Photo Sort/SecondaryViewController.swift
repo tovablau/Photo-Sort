@@ -12,6 +12,6 @@ import UIKit
 class SecondaryViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .blue
+        view.backgroundColor = .init(red: 0, green: 0, blue: 0, alpha: 0)
     }
 }

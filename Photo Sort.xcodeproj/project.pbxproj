@@ -19,6 +19,7 @@
 		202EED3423E3954000AE8E0E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202EED3323E3954000AE8E0E /* MainViewController.swift */; };
 		202EED3623E3959300AE8E0E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202EED3523E3959300AE8E0E /* DetailViewController.swift */; };
 		202EED3823E3965C00AE8E0E /* SecondaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202EED3723E3965C00AE8E0E /* SecondaryViewController.swift */; };
+		2038D28823E9F25A00B5E6CF /* CameraHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2038D28723E9F25A00B5E6CF /* CameraHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		202EED3323E3954000AE8E0E /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		202EED3523E3959300AE8E0E /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		202EED3723E3965C00AE8E0E /* SecondaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryViewController.swift; sourceTree = "<group>"; };
+		2038D28723E9F25A00B5E6CF /* CameraHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				202EED3323E3954000AE8E0E /* MainViewController.swift */,
 				202EED3523E3959300AE8E0E /* DetailViewController.swift */,
 				202EED3723E3965C00AE8E0E /* SecondaryViewController.swift */,
+				2038D28723E9F25A00B5E6CF /* CameraHandler.swift */,
 			);
 			path = "Photo Sort";
 			sourceTree = "<group>";
@@ -159,6 +162,7 @@
 				202EED1C23E3622600AE8E0E /* ViewController.swift in Sources */,
 				202EED1823E3622600AE8E0E /* AppDelegate.swift in Sources */,
 				202EED3023E393D900AE8E0E /* MainTabBarController.swift in Sources */,
+				2038D28823E9F25A00B5E6CF /* CameraHandler.swift in Sources */,
 				202EED2E23E3671A00AE8E0E /* ArticleView.swift in Sources */,
 				202EED3223E394E000AE8E0E /* MainNavigationController.swift in Sources */,
 				202EED2C23E366A100AE8E0E /* ArticleModel.swift in Sources */,

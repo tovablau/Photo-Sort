@@ -25,38 +25,42 @@ class MainViewController: UIViewController {
         mainButton1.translatesAutoresizingMaskIntoConstraints = false
                
         mainButton1.addTarget(self, action: #selector(MainViewController.buttonTapped), for: .touchUpInside)
-        mainButton1.setTitle("Take Photo", for: .normal)
+
+
+        //mainButton1.layer.cornerRadius = mainButton1.bounds.size.height / 2.0
+        mainButton1.layer.cornerRadius = 10;
+        mainButton1.setTitle("Add Photo", for: .normal)
         mainButton1.setTitleColor(.white, for: .normal)
         mainButton1.backgroundColor = .purple
                
         view.addSubview(mainButton1)
         
         mainButton1.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
-        mainButton1.topAnchor.constraint(equalTo: view.topAnchor, constant: 460).isActive = true
+        mainButton1.topAnchor.constraint(equalTo: view.topAnchor, constant: 500).isActive = true
         mainButton1.widthAnchor.constraint(equalToConstant: 300).isActive = true
         mainButton1.heightAnchor.constraint(equalToConstant: 69).isActive = true
         
-        let mainButton2 = UIButton()
-        mainButton2.translatesAutoresizingMaskIntoConstraints = false
-               
-        mainButton2.addTarget(self, action: #selector(MainViewController.buttonTapped), for: .touchUpInside)
-        mainButton2.setTitle("Add Photo from Library", for: .normal)
-        mainButton2.setTitleColor(.white, for: .normal)
-        mainButton2.backgroundColor = .purple
-               
-        view.addSubview(mainButton2)
-        
-        mainButton2.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
-        mainButton2.topAnchor.constraint(equalTo: view.topAnchor, constant: 570).isActive = true
-        mainButton2.widthAnchor.constraint(equalToConstant: 300).isActive = true
-        mainButton2.heightAnchor.constraint(equalToConstant: 69).isActive = true
-               
-               
+//        let mainButton2 = UIButton()
+//        mainButton2.translatesAutoresizingMaskIntoConstraints = false
+//
+//        mainButton2.addTarget(self, action: #selector(MainViewController.buttonTapped), for: .touchUpInside)
+//        mainButton2.setTitle("Add Photo from Library", for: .normal)
+//        mainButton2.setTitleColor(.white, for: .normal)
+//        mainButton2.backgroundColor = .purple
+//
+//        view.addSubview(mainButton2)
+//
+//        mainButton2.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
+//        mainButton2.topAnchor.constraint(equalTo: view.topAnchor, constant: 570).isActive = true
+//        mainButton2.widthAnchor.constraint(equalToConstant: 300).isActive = true
+//        mainButton2.heightAnchor.constraint(equalToConstant: 69).isActive = true
+//
+//
            
         
         let mainLabel = UILabel()
         mainLabel.text = "PHOTO SORT"
-        mainLabel.font = UIFont.boldSystemFont(ofSize: 50)
+        mainLabel.font = UIFont.boldSystemFont(ofSize: 60)
         mainLabel.sizeToFit()
         mainLabel.translatesAutoresizingMaskIntoConstraints = false
         
@@ -69,9 +73,11 @@ class MainViewController: UIViewController {
     }
     
     @objc func buttonTapped() {
-        print("Button pressed")
-        let detailViewController = DetailViewController()
-        navigationController?.pushViewController(detailViewController, animated: true)
+        //print("Button pressed")
+        //let detailViewController = DetailViewController()
+        let cameraHandler = CameraHandler()
+        cameraHandler.showActionSheet(vc: self)
+        //navigationController?.pushViewController(detailViewController, animated: true)
     }
     
     //private func addText(){
