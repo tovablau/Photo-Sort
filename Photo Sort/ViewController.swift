@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = .lightGray
-        
+//
 //
 //        articleView.backgroundColor = .green
 //        self.view.addSubview(articleView)
@@ -27,12 +27,12 @@ class ViewController: UIViewController {
 //        articleView.topAnchor.constraint(equalTo: self.view.topAnchor).isActive = true
 //        articleView.bottomAnchor.constraint(equalTo: self.view.bottomAnchor).isActive = true
 //
-
+//
 //        articleView.configure(model: articles[0])
         
-        let button = UIButton(type: .roundedRect)
-        button.tintColor = .black
-        self.view.addSubview(button)
+//        let button = UIButton(type: .roundedRect)
+//        button.tintColor = .black
+//        self.view.addSubview(button)
     }
 }
 

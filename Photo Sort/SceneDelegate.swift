@@ -1,3 +1,4 @@
+
 //
 //  SceneDelegate.swift
 //  Photo Sort
@@ -5,7 +6,6 @@
 //  Created by Tova Blau on 1/30/20.
 //  Copyright © 2020 Tova Blau. All rights reserved.
 //
-
 import UIKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
@@ -16,7 +16,22 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         window = UIWindow(windowScene: windowScene)
-        window?.rootViewController = ViewController()
+        
+        let mainTabBarController = MainTabBarController()
+        
+        let mainNavigationController = MainNavigationController()
+        let secondaryViewController = SecondaryViewController()
+        mainNavigationController.title = "Add Photo"
+        secondaryViewController.title = "View Schedule"
+        
+        let mainViewController = MainViewController()
+        mainViewController.title = "Photo Sort"
+        
+        mainNavigationController.viewControllers = [mainViewController]
+        
+        mainTabBarController.viewControllers = [mainNavigationController, secondaryViewController]
+        
+        window?.rootViewController = mainTabBarController
         window?.makeKeyAndVisible()
     }
 
